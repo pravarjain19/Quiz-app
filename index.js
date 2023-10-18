@@ -54,12 +54,12 @@ let score = 0 ;
 function showquestions(index){
 
 if(index< (questionList.QuestionList.length)){
-   console.log(questionList);
+//    console.log(questionList);
     let que = questionList.QuestionList[index];
     questiontag.innerHTML= "Q."+Number(index+1)+" "+que.Question;
     questiontag.setAttribute("value" , index);
     let oparr = que.options;
-    console.log(oparr);
+    // console.log(oparr);
 
 
 
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
      let cs = btn.innerHTML;
     let oplist = questionList.QuestionList[index].options;
     
-    console.log(oplist);
+    // console.log(oplist);
         
      for (let val in oplist) {
 
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
      }
      
      if(cor == cs){
-        console.log(btn);
+        // console.log(btn);
 
         
        disableAllButtons();
