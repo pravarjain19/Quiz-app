@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #888;
+
+}
+
+.app{
+    background-color: #fff;
+    width: 90%;
+    margin: 100px auto 0 ;
+    max-width: 600px;
+    
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+
+.app h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    
+}
+
+.que{
+    margin-top: 20px;
+
+}
+
+.que h3{
+    font-weight: 500;
+    padding: 10px;
+}
+
+.options button{
+    width: 100%;
+    margin: 15px 0 ;
+    text-align: left;
+    padding: 10px;
+    outline: none;
+
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.nxbtn , .play{
+    background-color: black;
+    color : white;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    padding: 8px 20px;
+    font-size: 18px; 
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.showScore{
+    text-align: center;
+    margin-top: 20px;
+}
+
